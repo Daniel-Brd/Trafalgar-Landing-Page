@@ -1,5 +1,6 @@
 import Image from "../image/image";
 import headerIllustration from "../../assets/images/trafalgar-header_illustration.svg";
+import { ContentHeader } from "./header-style";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <img src="" alt="" />
         <nav></nav>
       </header>
-      <article>
+      <ContentHeader>
         <section>
           <h1>Virtual healthcare for you</h1>
           <p>
@@ -18,7 +19,7 @@ const Header = () => {
           <button>Consult today</button>
         </section>
         <Image image={headerIllustration} />
-      </article>
+      </ContentHeader>
     </>
   );
 };

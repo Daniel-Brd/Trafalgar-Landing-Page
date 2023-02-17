@@ -1,11 +1,11 @@
-import Service from "./service/service";
+import Service from "../service/service";
 import clipboard from "../../assets/images/clipboard.svg";
 import clipboard2 from "../../assets/images/clipboard2.svg";
 import firstAid from "../../assets/images/first-aid.svg";
 import magnifying from "../../assets/images/magnifying.svg";
 import medicine from "../../assets/images/medicine.svg";
 import mobileDevice from "../../assets/images/mobile-device.svg";
-import { Section, Button } from "./our-services-style";
+import { Section } from "./our-services-style";
 
 const services = [
   {
@@ -50,7 +50,7 @@ const OurServices = () => {
         of service is suitable for your health
       </p>
       <Service services={services} />
-      <Button>Learn more</Button>
+      <button>Learn more</button>
     </Section>
   );
 };

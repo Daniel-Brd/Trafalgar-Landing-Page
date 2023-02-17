@@ -1,4 +1,4 @@
-import { StServices, StService, Title, Text, Image } from "./service-styles";
+import { StServices, StService, Title, Image } from "./service-styles";
 
 type Services = {
   services: Array<Service>;
@@ -16,7 +16,7 @@ const Service: React.FC<Services> = ({ services }) => {
         <StService key={index}>
           <Image src={service.image} alt="" />
           <Title>{service.title}</Title>
-          <Text>{service.text}</Text>
+          <p>{service.text}</p>
         </StService>
       ))}
     </StServices>

@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const StServices = styled.section`
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
   justify-content: center;
+  padding: 20rem;
+  width: 100%;
+  gap: 5%;
 `;
 
 export const StService = styled.article`
@@ -13,12 +15,18 @@ export const StService = styled.article`
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  width: 350px;
-  height: 350px;
-  padding: 40px;
+  width: 350rem;
+  height: 350rem;
+  padding: 40rem;
   justify-content: space-around;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-  border-radius: 20px;
+  box-shadow: 10rem 40rem 50rem rgba(229, 233, 246, 0.4);
+  border-radius: 20rem;
+  margin-bottom: auto;
+  p{
+    font-weight: 300;
+    font-size: 16rem;
+    line-height: 28rem;
+  }
 `;
 
 export const Image = styled.img`
@@ -32,8 +40,4 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
-  color: #7d7987;
 `;
