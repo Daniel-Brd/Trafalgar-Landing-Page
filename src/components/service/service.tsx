@@ -1,4 +1,4 @@
-import { StServices, StService, Title, Image } from "./service-styles";
+import { StServices, StService, Title, Image, Bgimage } from "./service-styles";
 
 type Services = {
   services: Array<Service>;
@@ -10,7 +10,8 @@ type Service = {
 };
 
 const Service: React.FC<Services> = ({ services }) => {
-  return (
+  return (<>
+    <Bgimage><img src="src/assets/images/bg_element.svg" alt="" /></Bgimage>
     <StServices>
       {services.map((service: Service, index: number) => (
         <StService key={index}>
@@ -20,6 +21,7 @@ const Service: React.FC<Services> = ({ services }) => {
         </StService>
       ))}
     </StServices>
+  </>
   );
 };
 
