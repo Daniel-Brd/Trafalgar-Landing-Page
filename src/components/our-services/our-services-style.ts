@@ -7,13 +7,12 @@ export const Section = styled.section`
   gap: 70rem;
   padding: 20rem;
 
-
-  >h1{
+  > h1 {
     font-weight: 700;
     font-size: 36rem;
   }
 
-  >p{
+  > p {
     font-weight: 300;
     font-size: 18rem;
     line-height: 30rem;
@@ -21,7 +20,7 @@ export const Section = styled.section`
     padding: 0 80rem;
   }
 
-  >button{
+  > button {
     border: 1.4px solid var(--main-blue);
     color: var(--main-blue);
     background-color: white;
